@@ -7,7 +7,6 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
-from streamlit_paste_button import paste_image_button
 
 # Set up the Streamlit app
 st.set_page_config(page_title="Furina Fanart Sorter", page_icon="🌊")
@@ -34,7 +33,7 @@ st.markdown("""
 """)
 
 # The single native uploader that handles everything
-uploaded_file = st.file_uploader("Drop or Paste Image Here", type=["jpg", "jpeg", "png", "webp"], label_visibility="collapsed")
+uploaded_file = st.file_uploader("Drop or Paste Image Here", type=["jpg", "jpeg", "png", "webp"])
 
 # User Interface
 if uploaded_file is not None:
