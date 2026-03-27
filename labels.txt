@@ -1,0 +1,3 @@
+0 Furina
+1 Not Furina
+2 Junk Drawer
