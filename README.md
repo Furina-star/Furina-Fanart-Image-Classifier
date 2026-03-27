@@ -1,5 +1,5 @@
 # Furina Fanart Sorter (AI Image Classifier)
-# URL: https://furina-fanart-image-classifier-r2cgvmhbbhz6ysemn9gtvy.streamlit.app/
+## URL: https://furina-fanart-image-classifier-r2cgvmhbbhz6ysemn9gtvy.streamlit.app/
 
 ## Overview
 An AI-powered web application built with Python and Streamlit that automatically sorts and classifies Genshin Impact fanart. 
